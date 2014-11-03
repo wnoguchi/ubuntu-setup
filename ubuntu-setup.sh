@@ -15,3 +15,9 @@ git config --global push.default simple
 git config --global core.precomposeunicode true
 git config --global core.quotepath false
 
+# Install setuptools(easy_install)
+wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
+
+# Install pip
+sudo easy_install pip
+
