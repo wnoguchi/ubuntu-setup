@@ -4,6 +4,9 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install curl zsh vim git ruby screen tmux
 
+# Install build environment
+sudo apt-get -y install build-essential
+
 # Git configuration setup
 git config --global user.name "Wataru Noguchi"
 git config --global user.email "wnoguchi.0727@gmail.com"
