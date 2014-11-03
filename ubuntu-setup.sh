@@ -2,7 +2,7 @@
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
-sudo apt-get -y install zsh vim git ruby 
+sudo apt-get -y install curl zsh vim git ruby 
 
 # Git configuration setup
 git config --global user.name "Wataru Noguchi"
