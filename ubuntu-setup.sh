@@ -30,3 +30,10 @@ sudo pip install awscli
 # Install jq JSON parser
 sudo curl -o /usr/local/bin/jq http://stedolan.github.io/jq/download/linux64/jq && sudo chmod +x /usr/local/bin/jq
 
+# for rbenv dependent packages
+sudo apt-get -y install libssl-dev zlib1g-dev libreadline-dev libmysqlclient-dev sqlite3 libsqlite3-dev g++
+
+# clone rbenv and ruby-build
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+
