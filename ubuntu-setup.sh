@@ -21,3 +21,6 @@ wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
 # Install pip
 sudo easy_install pip
 
+# Install AWS CLI
+sudo pip install awscli
+
